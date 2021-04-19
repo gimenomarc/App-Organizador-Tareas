@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap");
+:root {
+  background-color: tomato;
+  font-size: 62.5%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-xxxl {
+  font-size: 2.2rem;
+}
+
+.text-xxl {
+  font-size: 1.8rem;
+}
+
+.text-xl {
+  font-size: 1.2rem;
+}
+
+.text-l {
+  font-size: 1rem;
+}
+
+.text-default {
+  font-size: 1.5rem;
+}
+
+.text-small {
+  font-size: 0.5rem;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  background-color: #6B6C6F;
+  padding: 5rem;
+  text-align: center;
+}
+
+main {
+  background-color: #6B6C6F;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menuAñadir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.menuAñadir div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+.menuAñadir .menuAñadir__titulo {
+  width: 30%;
+}
+
+.menuAñadir .menuAñadir__descripcion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.menuAñadir .menuAñadir__descripcion input {
+  width: 77%;
+  margin-left: 4rem;
+}
+
+.menuAñadir .menuAñadir__btn {
+  width: 15%;
+}
+
+.menuTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.menuTable div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.menuTable .menuTable__todo {
+  width: 30%;
+}
+
+.menuTable .menuTable__descripcion {
+  width: 100%;
+}
+
+.menuTable .menuTable__completado {
+  width: 15%;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.table div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.table .table__todo {
+  width: 30%;
+}
+
+.table .table__descripcion {
+  width: 100%;
+}
+
+.table .table__btns {
+  width: 15%;
+}
+/*# sourceMappingURL=styles.css.map */

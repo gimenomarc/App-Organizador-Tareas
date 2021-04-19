@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+:root {
+    background-color: tomato;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-xxxl {
+    font-size: 2.2rem;
+  }
+  .text-xxl {
+    font-size: 1.8rem;
+  }
+  .text-xl {
+    font-size: 1.2rem;
+  }
+  .text-l {
+    font-size: 1rem;
+  }
+  .text-default {
+    font-size: 1.5rem;
+  }
+  .text-small {
+    font-size: 0.5rem;
+  }
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+header { 
+    background-color: #6B6C6F;
+    padding: 5rem;
+    text-align: center;
+}
+
+main {
+    background-color: #6B6C6F;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menuAñadir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10rem;
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+            padding: 2rem;
+        }
+        .menuAñadir__titulo{
+            width: 30%;
+        }
+        .menuAñadir__descripcion{
+            width: 100%;
+            display: flex;
+            justify-content: left; 
+                input{
+                    width: 77%;
+                    margin-left: 4rem;
+                }
+        }
+        .menuAñadir__btn{
+            width: 15%;
+        }
+        
+}
+
+.menuTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+            padding: 3rem;
+        }
+        .menuTable__todo{
+            width: 30%;
+        }
+        .menuTable__descripcion{
+            width: 100%;
+        }
+        .menuTable__completado{
+            width: 15%;
+        }
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+            padding: 3rem;
+        }
+        .table__todo{
+            width: 30%;
+        }
+        .table__descripcion{
+            width: 100%;
+        }
+        .table__btns{
+            width: 15%;
+        }
+    }
+
