@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Organizador</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="menu text-xxxl">
@@ -17,50 +19,43 @@
         <div class="menuAñadir text-xxl">
             <div class="menuAñadir__titulo">
                 <h2>Titulo</h2>
-                <input type="text">
+                <input id="titulo" class="inp" type="text">
             </div>
             <div class="menuAñadir__descripcion">
                 <h2>Descripcion</h2>
-                <input type="text">
+                <input id="descripcion" class="inp" type="text">
             </div>
             <div class="menuAñadir__btn">
-                <button>Añadir</button>
+                <button class="btn" id="btn__añadir">Añadir</button>
             </div>
         </div>
-    <div class="menuTable text-xxl">
-        <div class="menuTable__todo">
-            <h2>Todo</h2>
+        <div class="menuTable">
+            <table id="table" class="text-xxxl">
+                <tr class="table__info">
+                    <th>Titulo</th>
+                    <th>Descripcion</th>
+                    <th>Completado</th>
+                </tr>
+                <div class="menuTable__container">
+                    <tr>
+                        <td>Comprar</td>
+                        <td>Mercadona, tabaco, farmacia</td>
+                        <td>
+                            <input type="checkbox">
+                        </td>                    
+                        <td class="btn__editar">
+                            <button class="btn">Editar</button>
+                        </td>
+                        <td class="btn__eliminar">
+                            <button class="btn">Eliminar</button>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </table>
         </div>
-        <div class="menuTable__descripcion">
-            <h2>
-                Descripcion
-            </h2>
-        </div>
-        <div class="menuTable__completado">
-            <h2>
-                Completado
-            </h2>
-        </div>
-    </div>
-
-    <div class="table text-xxl">
-        <div class="table__todo">
-            <h2>
-                Learn JS
-            </h2>
-        </div>
-        <div class="table__descripcion">
-            <h2>
-                Watch Javascript tutorials on Youtube
-            </h2>
-        </div>
-        <div class="table__btns">
-            <button>Editar</button>
-            <button>Borrar</button>
-        </div>
-    </div>
-
-</main>
-<script src="app.js"></script>
+    </main>
+    <script src="app.js"></script>
 </body>
+
 </html>

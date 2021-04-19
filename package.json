@@ -1,0 +1,24 @@
+{
+  "name": "applistatareas",
+  "version": "1.0.0",
+  "description": "Aplicacion para organizar tareas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimenomarc/App-Organizador-Tareas.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "sass"
+  ],
+  "author": "Marc Gimeno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimenomarc/App-Organizador-Tareas/issues"
+  },
+  "homepage": "https://github.com/gimenomarc/App-Organizador-Tareas#readme"
+}
