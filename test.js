@@ -1,5 +1,5 @@
 
-
+/*
 let div = document.createElement('div');
 div.classList.add('container');
 
@@ -9,33 +9,42 @@ div.appendChild(p)
 
 const menu = document.querySelector('.menuAñadir');
 menu.appendChild(div)
+*/
 
-function createItems () {
+function createTable () {
+    var table = document.createElement('table');
+    table.id = "table1"
+    document.appendChild(table);   
+
+    var tr = document.createElement("tr");
+    table.appendChild(tr);
+
+    let th = document.createElement("th");
+    th.innerHTML =  
+    tr.appendChild(tr);
+
+    let thh = document.createElement("th");
+    th.innerHTML = `{newItem.description}` 
+    tr.appendChild(tr);
+}
+
+function createDescription () {
     let tr = document.createElement('tr');
-    tr.classList.add('td');
+    tr.classList.add('td__th');
     let td = document.createElement('td');
-    td.textContent = " hello "
+    td.textContent = " Description "
     tr.appendChild(td);
 
     const menu = document.querySelector('.menuTable__container');
     menu.appendChild(tr)
-    console.log(tr);    
+    console.log(tr);  
 }
 
+createTable();
+addTable();
 
-
-createItems();
-
-
-
-
-
-
-
-
-
-
-
+//createTitle();
+//createDescription();
 
 /* 
 row.innerHTML = `

@@ -22,8 +22,50 @@ btnAdd.onclick = function(){
     createRow(newItem.id,newItem.title,newItem.description);
 }
 
-
 btnRemove.onclick = function(){
     //items.
 
 }
+
+
+/*
+class Item{
+    constructor(title,description){
+        this.id = Date.now()
+        this.title = title;
+        this.description = description;
+        this.isCompleted = false;
+    }
+}
+*/ 
+
+
+
+
+
+
+
+
+
+
+/*
+                                      /;    ;\
+                                  __  \\____//
+                                 /{_\_/   `'\____
+                                 \___   (o)  (o  }
+      _____________________________/          :--'
+  ,-,'`@@@@@@@@       @@@@@@         \_    `__\
+ ;:(  @@@@@@@@@        @@@             \___(o'o)
+ :: )  @@@@          @@@@@@        ,'@@(  `===='
+ :: : @@@@@:          @@@@         `@@@:
+ :: \  @@@@@:       @@@@@@@)    (  '@@@'
+ ;; /\      /`,    @@@@@@@@@\   :@@@@@)
+ ::/  )    {_----------------:  :~`,~~;
+;;'`; :   )                  :  / `; ;
+;;;; : :   ;                  :  ;  ; :
+`'`' / :  :                   :  :  : :
+   )_ \__;      ";"          :_ ;  \_\       `,','
+   :__\  \    * `,'*         \  \  :  \   *  8`;'*
+       `^'     \ :/           `^'  `-^-'   \v/ :
+
+*/
